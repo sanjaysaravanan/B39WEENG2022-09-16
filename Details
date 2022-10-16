@@ -1,0 +1,50 @@
+
+
+Topics:
+
+  removeEventListener -- events can only be removed wth name function
+
+  options in addEventListener:
+    once: execute the event onl once
+
+  1. Working with some more events
+
+    onChange, onSubmit, onKeyDown, onScroll
+  
+  2. Concepts in events
+
+    1. Propagation --> events propagate through inner <-> outer between related elements
+
+      1. Bubbling (inner to outer) ---> event propagation of events from innerMost child to outermost parent 
+      2. Capturing (outer to inner) ---> event progation of events from outermost parent to innermost child
+
+      stopProgation func for an event
+
+    event DOM Creation:
+
+    Discussion for Task
+      Pagination
+      calculator
+
+    id, class, nested structure, keys to pass test case 
+
+Next Session:
+    
+  Callback
+
+    use and purpose of callback
+
+      General used in execution of utils ( eg: map, forEach, filter)
+      handle event execution
+      execution of statements/functions in a async operation
+    
+    Disadvantage of callback 
+
+  Sync & Async operations
+
+    Back to setTimeout
+
+  Random Task
+
+  Example Task:
+    table creation
